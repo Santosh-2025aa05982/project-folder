@@ -1,5 +1,5 @@
 from sklearn.linear_model import LogisticRegression
-
+from utils import load_and_preprocess
 
 X_train, X_test, y_train, y_test = load_and_preprocess()
 
